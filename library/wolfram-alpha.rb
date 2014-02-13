@@ -4,10 +4,10 @@ require 'cgi'
 require 'net/http'
 require 'nokogiri'
 
-require 'wolfram-alpha/pod'
-require 'wolfram-alpha/client'
-require 'wolfram-alpha/subpod'
-require 'wolfram-alpha/response'
+require_relative 'wolfram-alpha/pod'
+require_relative 'wolfram-alpha/client'
+require_relative 'wolfram-alpha/subpod'
+require_relative 'wolfram-alpha/response'
 
 # Wolfram|Alpha introduces a fundamentally new way to get knowledge and answers—
 # not by searching the web, but by doing dynamic computations based on a vast collection of

@@ -20,6 +20,11 @@ module WolframAlpha
       @plaintext ||= @element.at_css("plaintext").text
     end
 
+    def image
+      @image ||= @element.at_css("img").to_s
+      @image == "" ? nil : @image
+    end
+
     # Inspect the subpod.
     def inspect
       %{#<#{self.class.name} plaintext: #{plaintext.inspect}>}
