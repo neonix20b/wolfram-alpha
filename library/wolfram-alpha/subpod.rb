@@ -21,7 +21,7 @@ module WolframAlpha
     end
 
     def image
-      @image ||= @element.at_css("img").to_s
+      @image ||= @element.at_css("img")
       @image == "" ? nil : @image
     end
 
