@@ -4,7 +4,7 @@ Wolfram|Alpha introduces a fundamentally new way to get knowledge and answers—
  
 ## Installation
  
-`gem install wolfram-alpha`
+`gem "wolfram-alpha", github: "neonix20b/wolfram-alpha"`
 
 And that's it!
 
